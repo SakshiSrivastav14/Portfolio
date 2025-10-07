@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 
-const skills = ['React', 'TypeScript', 'Next.js', 'Node.js', 'Solana', 'Express.js', 'Prisma', 'Tailwind CSS'];
+const skills = ['React', 'TypeScript', 'Next.js', 'Node.js', 'Solana', 'SQL', 'Python', 'Tailwind CSS'];
 
 function App() {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
